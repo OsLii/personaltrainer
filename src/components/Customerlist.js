@@ -102,7 +102,7 @@ function Customerlist() {
         },
         {
             headerName: '',
-            width: 91,
+            width: 'auto',
             cellRendererFramework: (params) => <AddTraining addTraining={addTraining} params={params} />
         }
 
@@ -111,7 +111,7 @@ function Customerlist() {
     return (
         <div>
             <AddCustomer addCustomer={addCustomer} />
-            <div className="ag-theme-material" style={{ height: '800px', width: '80%', margin: 'auto' }}>
+            <div className="ag-theme-material" style={{ height: '800px', width: 'auto', margin: 'auto' }}>
                 <AgGridReact
                     ref={gridRef}
                     suppressCellSelection={true}

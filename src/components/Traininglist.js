@@ -61,7 +61,7 @@ function Traininglist() {
   return (
     <div>
 
-      <div className="ag-theme-material" style={{ height: '700px', width: '100%', margin: 'auto' }}>
+      <div className="ag-theme-material" style={{ height: '700px', width: 'auto', margin: 'auto' }}>
         <AgGridReact
           ref={gridRef}
           suppressCellSelection={true}
