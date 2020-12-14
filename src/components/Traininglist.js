@@ -41,7 +41,7 @@ function Traininglist() {
 
   const columns = [
     { headerName: 'Activity', field: 'activity', sortable: true, filter: true },
-    { headerName: 'Date', field: 'date', cellRenderer: (data) => { return moment(data.value).format("MM/DD/YYYY HH:MM"); }, sortable: true, filter: true },
+    { headerName: 'Date', field: 'date', cellRenderer: (data) => { return moment(data.value).format("MM/DD/YYYY HH:mm"); }, sortable: true, filter: true },
     { headerName: 'Duration', field: 'duration', sortable: true, filter: true },
     { headerName: "Customer's first name", field: 'customer.firstname', sortable: true, filter: true },
     { headerName: "Customer's last name", field: 'customer.lastname', sortable: true, filter: true },
